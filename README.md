@@ -1,7 +1,7 @@
 # Tugas Modul Praktikum 3
 
 ## Latihan 1
-Pada latihan 1 kali ini kita akan mencari angka terkecil yang kurang dari 0,5.
+Pada latihan 1 kali ini kita akan mencari angka terkecil yang kurang dari 0,5. Berikut algoritma dan langkah-langkahnya:
 ##### A. Input 
  - Langkah pertama, kita harus membuat perintah untuk memasukan nilai N atau beberapa data yang diinginkan kita.
 ```
@@ -29,9 +29,11 @@ from random import random
 ```
 print("Data ke:",i,"=>",(a))
 ```
+### Gambar hasil latihan 1
+![latihan 1](https://user-images.githubusercontent.com/56240483/68085117-c61b1780-fe6f-11e9-90a8-3a1a0720c928.png)
 
 ## Latihan 2
-Pada latihan 2 kali ini kita akan menampilkan bilangan terbesar dari N buah data yang diinpukan, dan angka 0 digunakan untuk berhenti.
+Pada latihan 2 kali ini kita akan menampilkan bilangan terbesar dari N buah data yang diinpukan, dan angka 0 digunakan untuk berhenti. Berikut algoritma dan langkah-langkahnya:
 ##### A. Input
  - Pertama, masukan variable 'a' sebagai integer, kemudian menginputkan nilainya. Dan variable 'b' dengan nilai 0.
 ```
@@ -56,9 +58,11 @@ while a >= 0:
 ```
 print("Bilangan terbesar adalah", b)
 ```
+### Gambar hasil latihan 2
+![Latihan 2](https://user-images.githubusercontent.com/56240483/68085128-de8b3200-fe6f-11e9-91cc-b652f1a2f8f8.png)
 
 ## Program 1
-Pada program 1 kali ini kita akan menghitung laba keuntungan per-bulan.
+Pada program 1 kali ini kita akan menghitung laba keuntungan per-bulan. Berikut algoritma dan langkah-langkahnya:
 ##### A. Input
  - Langkah pertama, kita membuat variable dengan nilai modal = 1000000000, nilai modal = 0, nilai untung = 0.
 ```
@@ -92,3 +96,5 @@ for i in range (1,9):
     print("Laba bulan ke", i, "sebesar:", laba)
 print("Total laba adalah : ", untung)
 ```
+### Gambar hasil program 1
+![Program 1](https://user-images.githubusercontent.com/56240483/68085133-f498f280-fe6f-11e9-9223-ae06ec7f5a02.png)
